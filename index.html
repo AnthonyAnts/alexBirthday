@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Birthday Card</title>
+</head>
+<body>
+    <div class="background-slideshow">
+        <img src="image1.png" alt="Background Image 1">
+        <img src="image2.jpg" alt="Background Image 2">
+        <img src="image3.png" alt="Background Image 3">
+        <img src="image4.jpg">
+        <img src="image5.JPG">
+        <img src="image6.jpg">
+        <img src="image7.jpg">
+        <img src="image8.jpg">
+        <img src="image10.jpg">
+        <img src="image11.jpg">
+        <img src="image12.jpg">
+        <img src="image13.jpg">
+        <img src="image14.jpg">
+        <img src="image15.jpg">
+    </div>
+    
+    <div class="center-button">
+        <button class="button-28" role="button" onclick="slideCard()">Open Birthday Card</button>
+    </div>  
+
+    <div class="birthdayCard" id="birthdayCard">
+        <div class="cardFront">
+            <div class="front-text">
+                <h3 class="happy">HAPPY</h3>
+                <h2 class="bday">BIRTHDAY</h2> 
+                <h3 class="toyou">to you!</h3>  
+            </div>
+            <div class="wrap-deco">
+                <div class="decorations"></div>
+                <div class="decorationsTwo"></div>
+            </div> 
+            <div class="wrap-decoTwo">
+                <div class="decorations"></div>
+                <div class="decorationsThree"></div>
+            </div>
+            <div class="plate">
+                <div class="cake"></div>
+                <div class="flame"></div>
+            </div>
+        </div>  
+        <div class="cardInside">
+            <div class="inside-text">
+                <h3 class="happy">HAPPY</h3>
+                <h2 class="bday">BIRTHDAY</h2> 
+                <h3 class="toyou">to you!</h3>  
+            </div>
+            <div class="wishes">
+                <p>Dear Alex</p>
+                <p>Happy birthday!!</p>
+                <p class="name">Ants</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function slideCard() {
+            document.getElementById('birthdayCard').style.top = '50%';
+        }
+    </script>
+</body>
+</html>
